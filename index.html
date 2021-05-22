@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicios</title>
+  </head>
+  <body>
+    <h1 class="titulo">Ejercicios: Estructuras de control (secuencia)</h1>
+    <div class="ejercicio-1">
+      <h3>1. Se necesita sumar dos números leídos desde el teclado (los ingresa el usuario) y mostrar el resultado por pantalla.</h3>
+      <div class="ejercicios">
+       <input type="number" id="numero1" placeholder="Ingrese su primer número">
+       <input type="number" id="numero2" placeholder="ingrese su segundo número">
+       <button onclick="sumar()">Sumar</button>
+    </div>
+    <br>
+    <div id="resultado-1"></div>
+    </div>
+
+    <div class="ejercicio-2">
+      <h3>2.	Se necesita saber el promedio de las notas de un estudiante del curso formalización de algoritmos, el mismo rindió 3 parciales.</h3>
+      <div class="ejercicios">
+        <input type="number" id="parcial1" placeholder="Nota del primer parcial">
+        <input type="number" id="parcial2" placeholder="Nota del segundo parcial">
+        <input type="number" id="parcial3" placeholder="Nota del tercer parcial">
+        <button onclick="promedio()">Calcular promedio</button>
+      </div>
+      <br>
+    <div id="resultado-2"></div>
+    </div>
+
+    <div class="ejercicio-3">
+      <h3>3.	Suponga que un individuo desea invertir su capital en un banco y desea saber cuanto dinero ganará después de un mes, si el banco paga a razón de 2% mensual.</h3>
+      <div class="ejercicios">
+        <input type="number" id="capital" placeholder="Indique su capital a invertir">
+        <button onclick="ganancia()">Calcular ganancia</button>
+      </div>
+      <br>
+    <div id="resultado-3"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
