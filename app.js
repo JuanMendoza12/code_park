@@ -1,3 +1,4 @@
+let abazar= "te abrazo"
 /* var primerNumero = prompt('ingrese primer numero');
 var segundoNumero = prompt('ingrese su segundo numero');
 alert(parseInt(primerNumero) + parseInt(segundoNumero)); */ //Forma 1
